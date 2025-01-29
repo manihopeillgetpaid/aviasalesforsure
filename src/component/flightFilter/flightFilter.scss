@@ -1,0 +1,19 @@
+ul{
+    display: flex;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+    
+}
+li{
+    list-style: none;
+    padding: 15px 30px;
+    border: 1px solid #DFE5EC;
+    border-radius: 5px;
+    background-color: white;
+}
+.active{
+    background-color:#2196F3 ;
+    color: white;
+}
