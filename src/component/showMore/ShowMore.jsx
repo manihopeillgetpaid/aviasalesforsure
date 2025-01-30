@@ -10,7 +10,7 @@ import { showMoreTickets } from '../../redux/getTicketsSlice'
  
        return (
        <div>
- {!stop && (displayCount < tickets.length )&& (<div style={{
+ {(displayCount < tickets.length )&& (<div style={{
             backgroundColor: '#2196F3',
             color: 'white',
              padding: '15px',
