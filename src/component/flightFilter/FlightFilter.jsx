@@ -1,7 +1,7 @@
 import React from "react";
 import './flightFilter.scss';
 import { useSelector, useDispatch } from 'react-redux';
-import { setSortBy } from '/Users/anastasiabulgakova/Desktop/aviasales/src/redux/sortSlice.js'
+import { setSortBy } from "../../redux/sortSlice";
 
 const FlightFilter = () => {
     const dispatch = useDispatch();

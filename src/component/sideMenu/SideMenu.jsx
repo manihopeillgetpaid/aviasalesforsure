@@ -13,7 +13,6 @@ const SideMenu = () => {
     { id: 'threeTransfers', label: "3 пересадки" },
   ];
 
-  // Извлекаем filters с защитой от ошибок
   const filters = useSelector((state) => state.filters || {});
   const dispatch = useDispatch();
 
@@ -27,7 +26,7 @@ const SideMenu = () => {
       >
         <input
           type="checkbox"
-          checked={filters[id]} // Привязка состояния из Redux
+          checked={filters[id]}
           id={`checkbox${index}`}
           name="checkbox"
           style={{

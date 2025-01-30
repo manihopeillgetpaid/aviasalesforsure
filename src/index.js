@@ -13,10 +13,3 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
     </React.StrictMode>
   );
 
-
-  window.addEventListener("unhandledrejection", (event) => {
-    // Отключаем ошибку в консоли, если это ошибка 500
-    if (event.reason && event.reason.message && event.reason.message.includes("HTTP error! Status: 500")) {
-        event.preventDefault(); // Отключаем вывод ошибки в консоль
-    }
-});

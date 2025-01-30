@@ -7,8 +7,6 @@ import { setSearchId } from '../../redux/searchIdSlice';
 import { getTickets } from "../../redux/getTickets";
 import { Spin } from 'antd';
 import { setLoader } from "../../redux/loaderSlice";
-import { addTickets } from '../../redux/getTicketsSlice'
-import ShowMore from "../showMore/ShowMore";
 
 const Ticket = () => {
     const dispatch = useDispatch();
